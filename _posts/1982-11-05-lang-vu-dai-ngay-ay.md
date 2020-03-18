@@ -5,7 +5,6 @@ img: 'https://i.imgur.com/Xou4PhC.jpg'
 player:
   - >-
     https://gdriveplayer.me/embed2.php?link=jzWzV4F%252BmpDIJ7wXU5ySGgdTrlFkKlOcdD%252BAwsaraH7CfaPqFSlQS9jqOMeDdBtKGn49M7qM50EQo7BrP%252BIpSOs4NheT3krQZfSQzNrNgFEM0gnHf4ivzG%252FsZuYjMErfg1xTQOvHmO2OpABpXjpv6gbYpKtzacF7rdPN5PFvOFgywChXTq6g8smEp6AkAKH1%252Blx6mNpIIgyJRwsKMV81Jn
-  - 'https://playhydrax.com/?v=cwzCAIzyb'
 hd: FHD
 slug: lang-vu-dai-ngay-ay
 date: '1982-11-05 09:24:46'
