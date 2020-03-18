@@ -1,0 +1,62 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html lang="vi" prefix="og: http://ogp.me/ns#">
+{% include head.html %}
+   <body onselectstart="return false" oncontextmenu="return false" class="home blog halimthemes halimmovies" data-masonry="">
+      <header id="header">
+         <div class="container">
+            <div class="row" id="headwrap">
+               <div class="col-md-3 col-sm-6 slogan">
+                  <h1 class="site-title"><a class="logo" href="/" rel="home">{{ site.title }}</a></h1>
+               </div>
+               <div class="col-md-5 col-sm-6 halim-search-form">
+                  <div class="header-nav">
+                     <div class="col-xs-12">
+                        <form id="search-form-pc" name="halimForm" role="search" action="/search.html" method="GET">
+                           <div class="form-group">
+                              <div class="input-group col-xs-12">
+                                 <input id="search-input" type="text" name="query" class="form-control" placeholder="Tìm kiếm..." required>
+                                 <ul id="results-container" class="ui-autocomplete ajax-results"></ul>
+                              </div>
+                           </div>
+                        </form>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+      <!-- /header -->   
+      {{ content }}
+   
+         
+      
+      
+      <div class="clearfix"></div>
+      <div class="footer-credit">
+         <div class="container credit">
+            <div class="row container">
+
+               <div class="col-xs-12 col-sm-4 col-md-6 text-right pull-right">
+                  <p class="blog-info">
+                        © 2019-2020 Xem Phim Việt | <a href="https://www.facebook.com/Xem-Phim-Vi%E1%BB%87t-110621426997790/"><img src="https://i.imgur.com/cxs871J.png" width="12"></a>
+                  </p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!--./ End #halim_wrapper -->
+
+      
+      <script src="{{ site.url }}/assets/js/search.min.js"></script>
+      <script type="text/javascript">var sjs = SimpleJekyllSearch({searchInput: document.getElementById('search-input'), resultsContainer: document.getElementById('results-container'), json: '{{ site.url }}/assets/js/search.json'})</script>
+
+      <script type="text/javascript">!function n(){try{!function t(n){1===(""+n/n).length&&0!==n||function(){}.constructor("debugger")(),t(++n)}(0)}catch(t){setTimeout(n,100)}}();</script>
+      {% if site.ga-lite %}
+      <script>(function(e,t,n,i,s,a,c){e[n]=e[n]||function(){(e[n].q=e[n].q||[]).push(arguments)};a=t.createElement(i);c=t.getElementsByTagName(i)[0];a.async=true;a.src=s;c.parentNode.insertBefore(a,c)})(window,document,"galite","script","https://cdnjs.cloudflare.com/ajax/libs/ga-lite/2.0.1/ga-lite.min.js");galite('create', '{{ site.ga-lite }}', 'auto');galite('send', 'pageview');</script>
+      {% endif %}
+   </body>
+</html>

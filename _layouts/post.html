@@ -1,0 +1,74 @@
+---
+layout: default
+---
+
+
+      <div class="container">
+         <div class="row container" id="wrapper">
+            <div class="halim-panel-filter">
+               <div class="panel-heading">
+                  <div class="row">
+                     <div class="col-xs-6">
+                        <div class="yoast_breadcrumb hidden-xs"><span><span><a href="/" >Trang chủ</a> » <span class="breadcrumb_last">{{ page.title }}</span></span></span></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- end panel-default -->
+            <main class="col-xs-12 col-sm-12 col-md-12">
+               <section id="content">
+                  <div class="clearfix wrap-content halim-single-news">
+                     <h1 class="entry-header">{{ page.title }}</h1>
+                     <div class="entry-content">
+                        <div class="item-content">
+                              
+                          
+
+                         
+                  {% if page.player %}
+			<style>.video-wrapper{position:relative;padding-bottom:56.25%;height:0;overflow:hidden}.video-wrapper iframe{position:absolute;top:0;left:0;width:100%;height:100%}</style>
+                        <div class="video-wrapper" id="video-wrapper">	
+			<iframe id="playvideo" width="520" height="360" scrolling="no" src="{{ page.player.first }}" frameborder="0"  allowfullscreen></iframe>	
+			</div>	
+				
+			<div class="clearfix"></div>
+			<div id="halim-list-server" class="list-eps-ajax">
+			   <div class="halim-server show_all_eps">
+			      <span class="halim-server-name">Server List</span>
+			      <ul class="halim-list-eps" id="myDIV">
+				{% for server in page.player %}
+					<li class="halim-episode"><a href="#video-wrapper" id="playvideo" onclick="chap{{forloop.index0 | plus: 1 }}()"><span class="halim-btn halim-info-1-1 box-shadow" data-type="none">#{{forloop.index0 | plus: 1 }}</span></a></li>
+					<script type="text/javascript">
+					   function chap{{forloop.index0 | plus: 1 }}() {
+					   document.getElementById("playvideo").src = '{{ server }}';
+					   }
+					</script>
+				{% endfor %}
+			      </ul>
+			      <div class="clearfix"></div>
+			   </div>
+			</div>
+			<div class="clearfix"></div>	
+                              
+                  {% endif %}            
+                  <div style="text-align:center">
+			  Vui lòng chờ tầm 20s để tải trình phát.
+			  <br/>Sử dụng trình chặn quảng cáo và chất lượng Original ở Server #1 để có trải nghiệm tốt nhất.</div>          
+                  <style>.buttons{text-align:center}.btn-hover{width:200px;font-size:16px;font-weight:600;color:#fff;cursor:pointer;margin:20px;height:55px;text-align:center;border:none;background-size:300% 100%;border-radius:50px;moz-transition:all .4s ease-in-out;-o-transition:all .4s ease-in-out;-webkit-transition:all .4s ease-in-out;transition:all .4s ease-in-out}.btn-hover:hover{background-position:100% 0;moz-transition:all .4s ease-in-out;-o-transition:all .4s ease-in-out;-webkit-transition:all .4s ease-in-out;transition:all .4s ease-in-out}.btn-hover:focus{outline:none}.btn-hover.color-1{background-image:linear-gradient(to right,#009245,#FCEE21,#00A8C5,#D9E021);box-shadow:0 4px 15px 0 rgba(83,176,57,0.75)}.btn-hover.color-2{background-image:linear-gradient(to right,#6253e1,#852D91,#A3A1FF,#F24645);box-shadow:0 4px 15px 0 rgba(126,52,161,0.75)}</style>                              
+                  <div class="buttons">
+                      <button class="btn-hover color-1" onclick="if(document.getElementById('spoiler') .style.display=='none') {document.getElementById('spoiler') .style.display=''}else{document.getElementById('spoiler') .style.display='none'}">Giới Thiệu</button>
+
+                  </div>
+                  <br/>
+                  <div id="spoiler" style="display:none; border: 5px solid gray; border-radius: 12px; margin: 0;">{{ content }}</div>    
+
+
+
+                        </div>
+                     </div>
+                  </div>
+               </section>
+            </main>
+         </div>
+      </div>
+      <!--./End .container -->	

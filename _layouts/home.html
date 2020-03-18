@@ -1,0 +1,61 @@
+---
+layout: default
+---
+
+      <!-- /header -->   
+      <div class="container">
+         <div class="row container" id="wrapper">
+            <!-- end panel-default -->
+            <div class="col-xs-12 carausel-sliderWidget">
+               <div class="wrap-slider">
+
+                  <div class="section-heading">
+                     {% assign total = 0 %}
+                     <a href="" title="TV Series">
+                     <span class="h-text">Danh Sách Phim (Tổng {{ site.posts | size }})</span>
+                     </a>							
+                  </div>
+                  <div class="halim_box">
+                    {% for post in paginator.posts %}
+                     <article class="col-md-2 col-sm-4 col-xs-6 thumb grid-item post-823">
+                        <div class="halim-item">
+                           <a class="halim-thumb" href="{{ site.url }}{{ post.url }}" data-toggle="tooltip" data-placement="bottom" title="{{ post.title }}">
+                              <figure><img loading="lazy" src="https://images.weserv.nl/?url={{ post.img }}&w=195&h=300&q=80" alt="{{ post.title }}" title="{{ post.title }}"></figure>
+                              <span class="status">{{ post.hd }}</span>                    
+                              <div class="icon_overlay"></div>
+                              <div class="halim-post-title-box">
+                                 <div class="halim-post-title title-2-line">
+                                    <h2 class="entry-title">{{ post.title }}</h2><p class="original_title">{{ post.date | date: "%Y" }}</p>
+                                 </div>
+                              </div>
+                           </a>
+                        </div>
+                     </article>
+                    {% endfor %}
+                  <div class="clearfix"></div>                     
+                     
+
+                  {% if paginator.total_pages > 1 %}
+                  <div class="text-center">
+                     <ul class='page-numbers'>
+                        {% if paginator.previous_page %}<li><a class="prev page-numbers" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"> << </a></li>{% endif %}
+                        {% for page in (1..paginator.total_pages) %}
+                        {% if page == paginator.page %}
+                        <li><span aria-current='page' class='page-numbers current'>{{ page }}</span></li>
+                        {% elsif page == 1 %}
+                        <li><a class='page-numbers' href='/'>{{ page }}</a></li>
+                        {% else %}
+                        <li><a class='page-numbers' href='{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}'>{{ page }}</a></li>{% endif %}{% endfor %}
+                        {% if paginator.next_page %}<li><a class="next page-numbers" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}"> >> </a></li>{% endif %}
+                     </ul>
+                  </div>
+                  {% endif %}                 
+                        
+                  </div>
+               </section>
+               <div class="clearfix"></div>
+            </div>
+          </div>
+         </div>
+      </div>
+      <!--./End .container -->	
