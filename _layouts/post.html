@@ -32,6 +32,7 @@ layout: default
 			</div>	
 				
 			<div class="clearfix"></div>
+				{% if page.player.size > 1 %}
 			<div id="halim-list-server" class="list-eps-ajax">
 			   <div class="halim-server show_all_eps">
 			      <span class="halim-server-name">Server List</span>
@@ -48,6 +49,7 @@ layout: default
 			      <div class="clearfix"></div>
 			   </div>
 			</div>
+				{% endif %}
 			<div class="clearfix"></div>	
                               
                   {% endif %}            
