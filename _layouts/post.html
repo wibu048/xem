@@ -43,7 +43,7 @@ layout: default
 				{% if page.player.size > 1 %}
 			<div id="halim-list-server" class="list-eps-ajax">
 			   <div class="halim-server show_all_eps">
-			      <span class="halim-server-name">Server List</span>
+			      <span class="halim-server-name"><span class="hl-server"></span> Server List</span>
 			      <ul class="halim-list-eps" id="myDIV">
 				{% for server in page.player %}
 					<li class="halim-episode"><a href="#video-wrapper" id="playvideo" onclick="chap{{forloop.index0 | plus: 1 }}()"><span class="halim-btn halim-info-1-1 box-shadow" data-type="none">#{{forloop.index0 | plus: 1 }}</span></a></li>
