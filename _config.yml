@@ -1,0 +1,29 @@
+# Site settings
+title:          Xem Phim Việt
+description:    "Xem phim Việt mới miễn phí nhanh chất lượng cao. Xem phim Việt online, phim Việt HD. Xem phim Việt Nam chiếu rạp nhanh online chất lượng cao."
+baseurl:        "/"
+url:            "https://xemphimvn.site"
+
+# Author
+author:
+  name:         luong8992
+  email:        luong8992@protonmail.com
+
+# Build settings
+markdown:       kramdown
+
+# Gems
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+
+# Permalinks
+permalink:      /:title.html
+paginate:       18
+paginate_path: "/page-:num/"
+
+# Google Analytics
+ga-lite: UA-133437491-1
+
+
