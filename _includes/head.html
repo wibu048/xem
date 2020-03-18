@@ -1,0 +1,44 @@
+<head>
+      <meta charset="utf-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <meta http-equiv="Content-Language" content="vi-VN" />
+      <meta name="theme-color" content="#234556">
+      <meta name="robots" content="noindex">
+      <meta name="google" content="notranslate">
+      <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="/assets/images/ico.png" />
+      <link rel="apple-touch-icon" type="image/png" href="/assets/images/ico.png" />
+      <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/Icon-57.png" />
+      <link rel="apple-touch-icon" sizes="60x60" href="/assets/images/Icon-60.png" />
+      <link rel="apple-touch-icon" sizes="72x72" href="/assets/images/Icon-72.png" />
+      <link rel="apple-touch-icon" sizes="76x76" href="/assets/images/Icon-76.png" />
+      <link rel="apple-touch-icon" sizes="114x114" href="/assets/images/Icon-114.png" />
+      <link rel="apple-touch-icon" sizes="120x120" href="/assets/images/Icon-120.png" />
+      <link rel="apple-touch-icon" sizes="144x144" href="/assets/images/Icon-144.png" />
+      <link rel="apple-touch-icon" sizes="152x152" href="/assets/images/Icon-152.png" />
+      <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/Icon-180.png" />
+
+      <title>{% if page.title %}{{ page.title }}{% if page.hd %} - {{ page.hd | replace: "FHD", "Full HD" }} | {{ site.title }}{% endif %}{% else %}{{ site.title }}{% endif %}</title>
+      {% seo %}
+      {% if site.name %}
+      <meta name="author" content="{{ site.name }}">
+      <meta name="copyright" content="&copy; {{ site.name }} {{ site.time | date: '%Y' }}">
+      {% endif %}
+      <meta property="og:site_name" content="{{ site.title }}">
+      <meta property="og:image" content="{% if page.img %}{{ page.img }}{% else %}/assets/images/homepage-bn.jpg{% endif %}">
+      <meta property="og:image:width" content="225">
+      <meta property="og:image:height" content="225">
+      <meta property="og:type" content="website" />
+      <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
+      <link rel="dns-prefetch" href="https://raw.githack.com">
+      <link rel="dns-prefetch" href="https://ssl.p.jwpcdn.com">
+      <link rel="dns-prefetch" href="https://images.weserv.nl">
+      <link rel="dns-prefetch" href="https://gdriveplayer.co">
+      <link rel="dns-prefetch" href="https://hydrax.net">
+      <link rel="canonical" href="{{ site.url }}{{ page.url }}"/>
+      <link rel='stylesheet' id='bootstrap-css' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css' media='all' />
+      <link rel='stylesheet' id='style-css' href='{{ site.url }}/assets/css/stylex.css' media='all' />
+
+      <style type="text/css">#header .site-title{margin-top:-1px;height:42px}#footer .footer-logo img{width:171px}.video-dimensions{width:100%;height:-webkit-fill-available}[title~=Download]{background-color:#71a20d;color:#fff!important}[title~=change]{background-color:#c1514d;color:#fff!important}</style>
+      <style>#header .site-title {background: url(/assets/images/logo.png) no-repeat top left;background-size: contain;text-indent: -9999px;}#header .site-title{margin-top:-1px;height:42px}#footer .footer-logo img{width:171px}.video-dimensions{width:100%;height:-webkit-fill-available}[title~=Download]{background-color:#71a20d;color:#fff!important}[title~=change]{background-color:#c1514d;color:#fff!important}</style>
+   </head>
