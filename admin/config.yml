@@ -22,7 +22,12 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Body", name: "body", widget: "markdown", required: false }
       - {label: "Thumbnail", name: "img", widget: "string", required: false}
 #      - {label: "Play", name: "play", widget: "string", required: false}
-      - {label: "Player", name: "player", widget: "list", required: false}
+      - name: player
+        label: Player
+        required: false
+        widget: list
+        field:
+          - {label: chap, widget: string, required: false}
       - {label: "HD", name: "hd", widget: "string", required: false}
       - {label: "Slug", name: "slug", widget: "string", required: false}
       - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mm:ss"}
