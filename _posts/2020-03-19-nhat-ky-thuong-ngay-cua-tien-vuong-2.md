@@ -9,10 +9,4 @@ hd: FHD
 slug: nhat-ky-thuong-ngay-cua-tien-vuong-f3123
 date: '2020-03-19 08:52:59'
 ---
-
-
-
-
-
-
 `
