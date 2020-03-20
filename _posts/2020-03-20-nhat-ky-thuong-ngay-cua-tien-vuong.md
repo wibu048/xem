@@ -4,18 +4,18 @@ title: Nhật Ký Thường Ngày Của Tiên Vương
 img: >-
   http://animehay.tv/uploads/images/2020/01/nhat-ky-thuong-ngay-cua-tien-vuong-thumbnail.jpg
 player:
-  - 'https://m.youtube.com/embed/21UqMHj9PJ0'
+  - 'https://www.youtube.com/embed/21UqMHj9PJ0'
   - ' https://m.youtube.com/embed/HapNP7rER9g'
-  - 'https://m.youtube.com/embed/YOUFiASrtqk'
-  - 'https://m.youtube.com/embed/8qlDglrWPIE'
-  - 'https://m.youtube.com/embed/_juSF6oCkDg'
-  - 'https://m.youtube.com/embed/h8ndzBAyGRI'
-  - 'https://m.youtube.com/embed/XQeyHXq-cQ0'
-  - 'https://m.youtube.com/embed/t9eD9OHK6AM'
-  - 'https://m.youtube.com/embed/hT43diObm14'
-  - 'https://m.youtube.com/embed/p_FEqVK7UF0'
-  - 'https://m.youtube.com/embed/br7twbgOWB4'
-  - 'https://m.youtube.com/embed/NmkoQDjMBaM'
+  - 'https://www.youtube.com/embed/YOUFiASrtqk'
+  - 'https://www.youtube.com/embed/8qlDglrWPIE'
+  - 'https://www.youtube.com/embed/_juSF6oCkDg'
+  - 'https://www.youtube.com/embed/h8ndzBAyGRI'
+  - 'https://www.youtube.com/embed/XQeyHXq-cQ0'
+  - 'https://www.youtube.com/embed/t9eD9OHK6AM'
+  - 'https://www.youtube.com/embed/hT43diObm14'
+  - 'https://www.youtube.com/embed/p_FEqVK7UF0'
+  - 'https://www.youtube.com/embed/br7twbgOWB4'
+  - 'https://www.youtube.com/embed/NmkoQDjMBaM'
 hd: FHD
 slug: nhat-ky-thuong-ngay-cua-tien-vuong-f3123
 date: '2020-03-20 08:46:15'
