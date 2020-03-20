@@ -5,7 +5,7 @@ img: >-
   http://animehay.tv/uploads/images/2020/01/nhat-ky-thuong-ngay-cua-tien-vuong-thumbnail.jpg
 player:
   - 'https://www.youtube.com/embed/21UqMHj9PJ0'
-  - ' https://m.youtube.com/embed/HapNP7rER9g'
+  - ' https://www.youtube.com/embed/HapNP7rER9g'
   - 'https://www.youtube.com/embed/YOUFiASrtqk'
   - 'https://www.youtube.com/embed/8qlDglrWPIE'
   - 'https://www.youtube.com/embed/_juSF6oCkDg'
