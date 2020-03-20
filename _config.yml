@@ -2,12 +2,12 @@
 title:          Xem Phim Việt
 description:    "Xem phim Việt mới miễn phí nhanh chất lượng cao. Xem phim Việt online, phim Việt HD. Xem phim Việt Nam chiếu rạp nhanh online chất lượng cao."
 baseurl:        "/"
-url:            "https://anime24h.netlify.com"
+url:            "https://phim.netlify.com"
 
 # Author
 author:
-  name:         luong8992
-  email:        luong8992@protonmail.com
+  name:         black048
+  email:        wibu048@gmail.com
 
 # Build settings
 markdown:       kramdown
@@ -24,6 +24,6 @@ paginate:       18
 paginate_path: "/page-:num/"
 
 # Google Analytics
-ga-lite: UA-133437491-1
+ga-lite: UA-133437491-5
 
 
