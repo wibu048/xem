@@ -5,17 +5,17 @@ img: >-
   http://animehay.tv/uploads/images/2020/01/nhat-ky-thuong-ngay-cua-tien-vuong-thumbnail.jpg
 player:
   - 'https://m.youtube.com/watch?v=21UqMHj9PJ0'
-  - ' https://m.youtube.com/watch?v=HapNP7rER9g'
-  - 'https://m.youtube.com/watch?v=YOUFiASrtqk'
-  - 'https://m.youtube.com/watch?v=8qlDglrWPIE'
-  - 'https://m.youtube.com/watch?v=_juSF6oCkDg'
-  - 'https://m.youtube.com/watch?v=h8ndzBAyGRI'
-  - 'https://m.youtube.com/watch?v=XQeyHXq-cQ0'
-  - 'https://m.youtube.com/watch?v=t9eD9OHK6AM'
-  - 'https://m.youtube.com/watch?v=hT43diObm14'
-  - 'https://m.youtube.com/watch?v=p_FEqVK7UF0'
-  - 'https://m.youtube.com/watch?v=br7twbgOWB4'
-  - 'https://m.youtube.com/watch?v=NmkoQDjMBaM'
+  - ' https://m.youtube.com/embed/HapNP7rER9g'
+  - 'https://m.youtube.com/embed/YOUFiASrtqk'
+  - 'https://m.youtube.com/embed/8qlDglrWPIE'
+  - 'https://m.youtube.com/embed/_juSF6oCkDg'
+  - 'https://m.youtube.com/embed/h8ndzBAyGRI'
+  - 'https://m.youtube.com/embed/XQeyHXq-cQ0'
+  - 'https://m.youtube.com/embed/t9eD9OHK6AM'
+  - 'https://m.youtube.com/embed/hT43diObm14'
+  - 'https://m.youtube.com/embed/p_FEqVK7UF0'
+  - 'https://m.youtube.com/embed/br7twbgOWB4'
+  - 'https://m.youtube.com/embed/NmkoQDjMBaM'
 hd: FHD
 slug: nhat-ky-thuong-ngay-cua-tien-vuong-f3123
 date: '2020-03-19 08:57:12'
