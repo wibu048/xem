@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'Na Tra: Ma Đồng Giáng Thế'
+img: /assets/uploads/na-tra-ma-dong-giang-the-thumbnail.jpg
 player:
   - ' https://vdevs.tk/anime/Player.php?url=http://animehay.tv/phim/na-tra-ma-dong-giang-the-tap-full-e91125.html'
 hd: HD
