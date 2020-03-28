@@ -18,6 +18,7 @@ player:
   - 'https://www.youtube.com/embed/NmkoQDjMBaM'
   - 'https://www.youtube.com/embed/ODTXNB5VQio '
   - 'https://www.youtube.com/embed/4UmtO1ZU5dA'
+  - 'https://www.youtube.com/embed/oAA0U1VNpoE'
 hd: FHD
 slug: nhat-ky-thuong-ngay-cua-tien-vuong-f3123
 date: '2020-03-20 08:46:15'
