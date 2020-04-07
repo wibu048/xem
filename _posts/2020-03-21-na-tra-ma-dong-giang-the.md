@@ -4,7 +4,7 @@ title: 'Na Tra: Ma Đồng Giáng Thế'
 img: >-
   http://animehay.tv/uploads/images/2019/10/na-tra-ma-dong-giang-the-thumbnail.jpg
 player:
-  - ' https://www.youtube.com/embed/hphpShNHuPQ'
+  - 'https://m.youtube.com/watch?v=hphpShNHuPQ'
 hd: HD
 slug: na-tra-ma-dong-giang-the-f3048
 date: '2019-03-21 08:59:00'
