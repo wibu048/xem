@@ -42,7 +42,7 @@ layout: default
 					<li class="halim-episode"><a href="#video-wrapper" id="playvideo" onclick="chap{{forloop.index0 | plus: 1 }}()"><span class="halim-btn halim-info-1-1 box-shadow" data-type="none">{{forloop.index0 | plus: 1 }}</span></a></li>
 					<script type="text/javascript">
 					   function chap{{forloop.index0 | plus: 1 }}() {
-					   document.getElementById("playvideo").src = '{{ server|replace({'https://m.youtube.com/watch?v=': "https://www.youtube.com/embed/", '.gif': "", '.jpeg': "", '.png': ""}) }}';
+					   document.getElementById("playvideo").src = '{{ server }}';
 					   }
 					</script>
 				{% endfor %}
