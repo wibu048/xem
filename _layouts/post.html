@@ -24,7 +24,7 @@ layout: default
 
 <div class="video-item halim-entry-box">
 			  <div class="video-wrapper" id="video-wrapper">
-				  <iframe id="playvideo" width="520" height="360" scrolling="no" src="{{ page.player.first|replace({'https://m.youtube.com/watch?v=': "https://www.youtube.com/embed/", '.gif': "", '.jpeg': "", '.png': ""})}}" frameborder="0"  allowfullscreen></iframe>
+				  <iframe id="playvideo" width="520" height="360" scrolling="no" src="{{ page.player.first }}" frameborder="0"  allowfullscreen></iframe>
 
 			
 				   </div></div></div>
@@ -42,7 +42,7 @@ layout: default
 					<li class="halim-episode"><a href="#video-wrapper" id="playvideo" onclick="chap{{forloop.index0 | plus: 1 }}()"><span class="halim-btn halim-info-1-1 box-shadow" data-type="none">{{forloop.index0 | plus: 1 }}</span></a></li>
 					<script type="text/javascript">
 					   function chap{{forloop.index0 | plus: 1 }}() {
-					   document.getElementById("playvideo").src = '{{ server }}';
+					   document.getElementById("playvideo").src = '{{ server|replace({'https://m.youtube.com/watch?v=': "https://www.youtube.com/embed/", '.gif': "", '.jpeg': "", '.png': ""}) }}';
 					   }
 					</script>
 				{% endfor %}
